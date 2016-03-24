@@ -8,10 +8,6 @@
 # Java class files
 *.class
 
-# Generated files
-bin/
-gen/
-
 # Gradle files
 .gradle/
 build/
@@ -30,3 +26,50 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+.DS_Store
+.settings/
+
+# built application files
+*.apk
+*.ap_
+*.o
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+build/
+*.iml
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Butterknife generated code
+.idea
+
+# Share our code style
+!.idea/codeStyleSettings.xml
+!.idea/inspectionProfiles/profiles_settings.xml
+!.idea/inspectionProfiles/Default.xml
+
+*/build/
+.gradle/*/taskArtifacts/
+
+scripts/deploy
+scripts/deploy_slow
+scripts/logcat
+
+# Heap Captures
+captures/
+
+# Gradle Autocomplete
+.gradletasknamecache
+
+#Paperwork
+*paperwork.json
